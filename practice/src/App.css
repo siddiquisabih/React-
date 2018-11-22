@@ -1,0 +1,37 @@
+.bg-light{
+  background-color:#c9e6ff !important;
+}
+.under{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+    animation: topToBottom 2s;
+    animation-direction: alternate;
+    position: relative;
+}
+
+.coinColor{
+  font-family: 'Comic Sans MS';
+  color: white !important;
+}
+.optionsColor{
+  font-family: 'Comic Sans MS';
+  color: black !important;
+  /* background: transparent !important;
+  border: none !important */
+  margin-right: 0.7vh
+}
+
+
+@keyframes topToBottom {
+  0%   { transform: translateY(-180px); opacity: 1;}
+  25%  {transform: translateY(-20px);  }
+  50%  { transform: translateY(-10px); }
+  75%  { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
